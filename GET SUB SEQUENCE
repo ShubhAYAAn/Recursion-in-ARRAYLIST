@@ -14,6 +14,9 @@ public class Main {
 
     }
 
+    FAITH--- //bc--- [--, -c, b-, bc]       
+     EXPECTATION   //abc-- [---, --c, -b-, -bc, a--, a-c, ab-, abc]                                     // FAITH pe ek baar blank lgaa do and ek baar a lgaado
+
     public static ArrayList<String> gss(String str) {
         if(str.length()==0)
         {
@@ -22,10 +25,10 @@ public class Main {
             return base;
         }
         
-        char ch=str.charAt(0);
-        String rest= str.substring(1);
+        char ch=str.charAt(0);  //a
+        String rest= str.substring(1);  //bc
         
-        ArrayList<String> recAns= gss(rest);
+        ArrayList<String> recAns= gss(rest);  //[--, -c, b-, bc]
         ArrayList<String> myAns=new ArrayList<>();
         
         for(String ele: recAns)
