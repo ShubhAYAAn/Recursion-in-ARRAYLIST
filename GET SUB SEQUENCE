@@ -15,7 +15,7 @@ public class Main {
     }
 
     FAITH--- //bc--- [--, -c, b-, bc]       
-     EXPECTATION   //abc-- [---, --c, -b-, -bc, a--, a-c, ab-, abc]                                     // FAITH pe ek baar blank lgaa do and ek baar a lgaado
+     EXPECTATION   //abc-- [---, --c, -b-, -bc, a--, a-c, ab-, abc]          // FAITH pe ek baar blank lgaa do and ek baar a lgaado
 
     public static ArrayList<String> gss(String str) {
         if(str.length()==0)
